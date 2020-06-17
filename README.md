@@ -103,69 +103,21 @@ Then the app should display an error message
 
 ### Feed Item
 
-| Property                    | Type                    |
-|-----------------------------|-------------------------|
-| `id`                        | `String`                |
-| `created_at`                | `Date`                  |
-| `updated_at`                | `Date`                  |
-| `width`                     | `Int`                   |
-| `height`                    | `Int`                   |
-| `color`                     | `String`                |
-| `downloads`                 | `Int`                   |
-| `likes`                     | `Int`                   |
-| `liked_by_user`             | `Int`                   |
-| `description`               | `String`                |
-| `exif`                      | `Dictionary`            |
-| `location`                  | `Dictionary`            |
-| `tags`                      | `Dictionary`            |
-| `current_user_collections`  | `[Dictionary]`          |
-| `urls`                      | `[URL]`                 |
-| `links`                     | `[URL]`                 |
-| `user`                      | `Dictionary`            |
+| Property           | Type            |
+|--------------------|-----------------|
+| `id`               | `String`        |
+| `description`      | `String`        |
+| `urls`             | `[PhotoURL]`    |
 
-### Extra Information
+### PhotoURL
 
-| Property                    | Type                    |
-|-----------------------------|-------------------------|
-| `make`                      | `String`                |
-| `model`                     | `String`                |
-| `exposure_time`             | `String`                |
-| `aperture`                  | `String`                |
-| `focal_lenght`              | `String`                |
-| `iso`                       | `Int`                   |
-
-### Location
-
-| Property                    | Type                    |
-|-----------------------------|-------------------------|
-| `city`                      | `String`                |
-| `country`                   | `String`                |
-| `position`                  | `Dictionary`            |
-
-### Position
-
-| Property                    | Type                    |
-|-----------------------------|-------------------------|
-| `latitude`                  | `Double`                |
-| `longitude`                 | `Double`                |
-
-### Tag
-
-| Property                    | Type                    |
-|-----------------------------|-------------------------|
-| `title`                     | `String`                |
-
-### User Collection
-
-| Property                    | Type                    |
-|-----------------------------|-------------------------|
-| `id`                        | `String`                |
-| `title`                     | `String`                |
-| `published_at`              | `String`                |
-| `last_collected_at`         | `String`                |
-| `updated_at`                | `String`                |
-| `cover_photo`               | `String` (optional)     |
-| `user`                      | `Dictionary` (optional) |
+| Property           | Type            |
+|--------------------|-----------------|
+| `raw`              | `URL`           |
+| `full`             | `URL`           |
+| `regular`          | `URL`           |
+| `small`            | `URL`           |
+| `thumb`            | `URL`           |
 
 ### Payload contract
 
