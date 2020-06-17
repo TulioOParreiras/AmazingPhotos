@@ -2,7 +2,7 @@
 //  FeedLoader.swift
 //  PhotosFeed
 //
-//  Created by Usemobile on 17/06/20.
+//  Created by Tulio Parreiras on 17/06/20.
 //  Copyright © 2020 Tulio Parreiras. All rights reserved.
 //
 
