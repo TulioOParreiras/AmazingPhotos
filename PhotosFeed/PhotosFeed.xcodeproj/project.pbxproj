@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		FCF25565249AC0760029162F /* PhotosFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCF2555B249AC0750029162F /* PhotosFeed.framework */; };
+		FCF25576249AC1090029162F /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF25575249AC1090029162F /* FeedItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,6 +26,7 @@
 		FCF2555F249AC0750029162F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FCF25564249AC0760029162F /* PhotosFeedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotosFeedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCF2556B249AC0760029162F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCF25575249AC1090029162F /* FeedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 			isa = PBXGroup;
 			children = (
 				FCF2555F249AC0750029162F /* Info.plist */,
+				FCF25575249AC1090029162F /* FeedItem.swift */,
 			);
 			path = PhotosFeed;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 				TargetAttributes = {
 					FCF2555A249AC0750029162F = {
 						CreatedOnToolsVersion = 11.3;
+						LastSwiftMigration = 1130;
 					};
 					FCF25563249AC0760029162F = {
 						CreatedOnToolsVersion = 11.3;
@@ -188,6 +192,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCF25576249AC1090029162F /* FeedItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,6 +336,7 @@
 		FCF25570249AC0760029162F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
@@ -347,6 +353,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.tulioParreiras.PhotosFeed;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -354,6 +361,7 @@
 		FCF25571249AC0760029162F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
@@ -377,6 +385,7 @@
 		FCF25573249AC0760029162F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = PhotosFeedTests/Info.plist;
@@ -394,6 +403,7 @@
 		FCF25574249AC0760029162F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = PhotosFeedTests/Info.plist;
