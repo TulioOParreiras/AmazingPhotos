@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FCBBB24C249AC7360096A658 /* FeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBBB24B249AC7360096A658 /* FeedLoader.swift */; };
 		FCF25565249AC0760029162F /* PhotosFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCF2555B249AC0750029162F /* PhotosFeed.framework */; };
 		FCF25576249AC1090029162F /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF25575249AC1090029162F /* FeedItem.swift */; };
 /* End PBXBuildFile section */
@@ -22,6 +23,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FCBBB24B249AC7360096A658 /* FeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoader.swift; sourceTree = "<group>"; };
 		FCF2555B249AC0750029162F /* PhotosFeed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PhotosFeed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCF2555F249AC0750029162F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FCF25564249AC0760029162F /* PhotosFeedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotosFeedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,6 +73,7 @@
 			children = (
 				FCF2555F249AC0750029162F /* Info.plist */,
 				FCF25575249AC1090029162F /* FeedItem.swift */,
+				FCBBB24B249AC7360096A658 /* FeedLoader.swift */,
 			);
 			path = PhotosFeed;
 			sourceTree = "<group>";
@@ -192,6 +195,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCBBB24C249AC7360096A658 /* FeedLoader.swift in Sources */,
 				FCF25576249AC1090029162F /* FeedItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
