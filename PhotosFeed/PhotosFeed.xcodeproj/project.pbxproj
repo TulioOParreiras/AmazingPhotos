@@ -50,6 +50,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FCBBB24D249AC7C60096A658 /* Feed Feature */ = {
+			isa = PBXGroup;
+			children = (
+				FCF25575249AC1090029162F /* FeedItem.swift */,
+				FCBBB24B249AC7360096A658 /* FeedLoader.swift */,
+			);
+			path = "Feed Feature";
+			sourceTree = "<group>";
+		};
 		FCF25551249AC0750029162F = {
 			isa = PBXGroup;
 			children = (
@@ -72,8 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				FCF2555F249AC0750029162F /* Info.plist */,
-				FCF25575249AC1090029162F /* FeedItem.swift */,
-				FCBBB24B249AC7360096A658 /* FeedLoader.swift */,
+				FCBBB24D249AC7C60096A658 /* Feed Feature */,
 			);
 			path = PhotosFeed;
 			sourceTree = "<group>";
